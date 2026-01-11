@@ -1,0 +1,31 @@
+# Node modules (never commit these)
+node_modules/
+**/node_modules/
+
+# Hardhat cache
+cache/
+artifacts/
+
+# dotenv environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# VSCode settings (optional)
+.vscode/
+
+# MacOS files (optional)
+.DS_Store
+
+# OS temp files
+*.swp
+*.swo
+
+# TypeScript build (if using TS)
+dist/
